@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+img{
+    width: 132px;
+    height: 59px;
+    
+}
+
+.home{
+    position: relative;
+    width: 1538px;
+    height: 357px;
+    object-fit: cover;
+    opacity: 50%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 2em;  
+    gap: 10px;
+}
+.homebutton{
+    text-decoration: none;
+    color: #E14658;
+  
+    font-family: 'Inter';
+
+    font-size: 20px;
+}
+
+
+.aboutbutton{
+    text-decoration: none;
+    color: black;
+  
+    font-family: 'Inter';
+
+    font-size: 20px;
+}
+.aboutbutton:hover{
+    color: #E14658;
+}
+
+
+.menubutton{
+    text-decoration: none;
+    color: black;
+  
+    font-family: 'Inter';
+
+    font-size: 20px;
+}
+.menubutton:hover{
+    color: #E14658;
+}
+
+.contactusbutton{
+    text-decoration: none;
+    color: black;
+  
+    font-family: 'Inter';
+
+    font-size: 20px;
+}
+.contactusbutton:hover{
+    color: #E14658;
+}
+
+#tes1{
+    position: absolute;
+    width: 413px;
+    height: 64px;
+    left: 599px;
+    top: 255px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #000;
+}
+
+.searchbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 464px;
+    height: 57px;
+    left: calc(50% - 546px/2 + 62px);
+    top: calc(50% - 57px/2 - 10px);
+
+    background: rgba(217, 217, 217, 0.45);
+    border: 1px solid #1E1E1E;
+}
+#search{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 3px;
+    top: 4px;
+
+ 
+    filter: 
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#bestseller1{
+    position: absolute;
+    width: 419px;
+    height: 66px;
+    left: 581px;
+    top: 428px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #E14658;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* gambar best seller */
+#ramenhome1{
+    position: absolute;
+    width: 525px;
+    height: 525px;
+    left: 30px;
+    top: 494.6px;
+}
+#ramenhome2{
+    position: absolute;
+    width: 428px;
+    height: 428px;
+    left: 581px;
+    top: 552.6px;
+}
+#ramenhome3{
+    position: absolute;
+    width: 524px;
+    height: 519.5px;
+    left: 1011px;
+    top: 517px;
+}
+
+.bghome1{
+    position: absolute;
+    width: 787px;
+    height: 729px;
+    left: 0px;
+    top: 1011px;
+    background-color: #3F3250;
+    opacity: 65%;
+}
+#new{
+    position: absolute;
+    width: 310px;
+    height: 95px;
+    left: 210px;
+    top: 47px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#newramen{
+    position: absolute;
+    width: 483px;
+    height: 374px;
+    left: 137px;
+    top: 1183px;
+}
+.bghome2{
+    position: absolute;
+    width: 752px;
+    height: 729px;
+    left: 786px;
+    top: 1011px;
+    background-color: #22252C;
+    opacity: 95%;
+}
+
+#special1{
+    position: absolute;
+    width: 310px;
+    height: 95px;
+    left: 267px;
+    top: 27px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#specialimg{
+    position: absolute;
+    width: 483px;
+    height: 374px;
+    left: 941px;
+    top: 1183px;
+}
+#lable{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1326px;
+    top: 1146px;
+}
+
+#kotak{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1306px;
+    height: 602px;
+    left: 116px;
+    top: 1846px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+.daftarmenuhome{
+    position: absolute;
+    width: 316px;
+    height: 87px;
+    left: 634px;
+    top: 1866px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+#homemenuimg1{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 178px;
+    top: 1965px;
+    border-radius: 25px;
+}
+#homemenuimg2{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 620px;
+    top: 1965px;
+    border-radius: 25px;
+}
+#homemenuimg3{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 1019px;
+    top: 1965px;
+    border-radius: 25px;
+}
+
+#viewallbutton{
+    background-color: #E14658;
+    position: absolute;
+    width: 306px;
+    height: 98px;
+    left: 645px;
+    top: 2320px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 75px;
+}
+#viewallbutton:hover{
+    background-color: dimgray;
+}
+.footerbg{
+    background-color: #22252CB5;
+    position: absolute;
+    width: 1536px;
+    height: 386px;
+    left: 0px;
+    top: 2706px;
+    opacity: 70%;
+}
+#loc{
+    color: #FFFFFF;
+    position: absolute;
+    width: 244px;
+    height: 82px;
+    left: 106px;
+    top: 174px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+#alamat{
+    color: #FFFFFF;
+    position: absolute;
+    width: 306px;
+    height: 106px;
+    left: 75px;
+    top: 235px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#logofoot{
+    position: absolute;
+    width: 306px;
+    height: 241px;
+    left: 595px;
+    top: 2729px;
+}
+#medsosfoot{
+    position: absolute;
+    width: 250px;
+    height: 125px;
+    left: 625px;
+    top: 2914px;
+}
+
+#OHfoot{
+    position: absolute;
+    width: 244px;
+    height: 82px;
+    left: 1077px;
+    top: 174px;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#h1{
+    
+position: absolute;
+width: 306px;
+height: 106px;
+left: 1046px;
+top: 240px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+}
+*{
+    margin: 0;
+}
+
+@media (max-width: 780px){
+
+    .header img{
+        width: 30%;
+        height: 15%;
+        /* margin-top: auto; */
+        margin-bottom: 25%;
+
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50vw;
+    }
+    
+    .navbar a{
+        display: flex;
+        padding-top: 1%;  
+        gap: 10px;
+ 
+        
+    }
+
+    .homebutton{
+        text-decoration: none;
+        color: #E14658;
+      
+        font-family: 'Inter';
+    
+        font-size: 8px;
+        margin-left: 125%;
+        margin-top: -20%;
+        margin-bottom: 5%;
+    }
+    
+    
+    .aboutbutton{
+        text-decoration: none;
+        color: black;
+      
+        font-family: 'Inter';
+    
+        font-size: 8px;
+        margin-top: -20%;
+        margin-bottom: 5%;
+
+    }
+    .aboutbutton:hover{
+        color: #E14658;
+    }
+    
+    
+    .menubutton{
+        text-decoration: none;
+        color: black;
+      
+        font-family: 'Inter';
+    
+        font-size: 8px;
+        margin-top: -20%;
+        margin-bottom: 5%;
+
+    }
+    .menubutton:hover{
+        color: #E14658;
+    }
+    
+    .contactusbutton{
+        text-decoration: none;
+        color: black;
+      
+        font-family: 'Inter';
+    
+        font-size: 8px;
+        margin-top: -20%;
+        margin-bottom: 5%;
+
+    }
+    .contactusbutton:hover{
+        color: #E14658;
+    }
+    
+    .home{
+        position: relative;
+        width: 320px;
+        height: 144px;
+        object-fit: cover;
+        opacity: 50%;
+        margin-top: -5%;
+    }
+
+    .searchbar{
+        box-sizing: border-box;
+        position: absolute;
+        width: 160px;
+        height: 23px;
+        left: calc(50% - 546px/2 + 200px);
+        top: calc(50% - 57px/2 - 100px);
+        background: rgba(217, 217, 217, 0.45);
+        border: 1px solid #1E1E1E;
+      }
+      #search{position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 3px;
+        top: 0px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+
+    #tes1{
+        position: absolute;
+        width: 413px;
+        height: 64px;
+        left: 119px;
+        top: 72px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 54px;
+        color: #000;
+      }
+    
+    #bestseller1{
+        position: absolute;
+        width: 419px;
+        height: 66px;
+        left: -43px;
+        top: 195px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 54px;
+        text-align: center;
+        color: #E14658;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    #ramenhome1{
+        position: absolute;
+        width: 255px;
+        height: 269px;
+        left: 39px;
+        top: 238.6px;
+    }
+    #ramenhome2{
+        position: absolute;
+        width: 255px;
+        height: 269px;
+        left: 34px;
+        top: 552.6px;
+    }
+    #ramenhome3{
+        position: absolute;
+        width: 255px;
+        height: 269px;
+        left: 25px;
+        top: 840.6px;
+       
+    }
+    .bghome1{
+        position: absolute;
+        width: 329px;
+        height: 314px;
+        left: 0px;
+        top: 1076px;
+        background-color: #3F3250;
+        opacity: 65%;
+    }
+    #new{
+        position: absolute;
+        width: 310px;
+        height: 95px;
+        left: 11px;
+        top: 47px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #newramen{
+        position: absolute;
+        width: 172px;
+        height: 142px;
+        left: 81px;
+        top: 1183px;
+    }
+    .bghome2{
+        position: absolute;
+        width: 321px;
+        height: 325px;
+        left: 0px;
+        top: 1388px;
+        background-color: #22252C;
+        opacity: 95%;
+    }
+    #special1{
+        position: absolute;
+        width: 310px;
+        height: 95px;
+        left: 16px;
+        top: 27px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 41px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    #specialimg{
+        position: absolute;
+        width: 172px;
+        height: 142px;
+        left: 82px;
+        top: 1513px;
+      }
+    #lable{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 218px;
+        top: 1488px;
+    }
+    .daftarmenuhome{
+        position: absolute;
+        width: 316px;
+        height: 87px;
+        left: 0px;
+        top: 1734px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+    }
+    #kotak{
+        box-sizing: border-box;
+        position: absolute;
+        width: 302px;
+        height: 654px;
+        left: 10px;
+        top: 1791px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 15px;
+    }
+    #homemenuimg1{
+        position: absolute;
+        width: 241px;
+        height: 167px;
+        left: 45px;
+        top: 1810px;
+        border-radius: 25px;
+    }
+    #homemenuimg2{
+        position: absolute;
+        width: 248px;
+        height: 170px;
+        left: 41px;
+        top: 1995px;
+        border-radius: 25px;
+    }
+    #homemenuimg3{
+        position: absolute;
+        width: 249px;
+        height: 173px;
+        left: 38px;
+        top: 2183px;
+        border-radius: 25px;
+    }
+    #viewallbutton{
+        background-color: #E14658;
+        position: absolute;
+        width: 177px;
+        height: 33px;
+        left: 70px;
+        top: 2384px;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 75px;
+    }
+
+    .footerbg {
+        background-color: #22252CB5;
+        position: absolute;
+        width: 318px;
+        height: 386px;
+        left: 0px;
+        top: 2476px;
+        opacity: 70%;
+    }
+    #logofoot {
+        position: absolute;
+        width: 136px;
+        height: 127px;
+        left: 94px;
+        top: 2564px;
+    }
+    #medsosfoot {
+        position: absolute;
+        width: 126px;
+        height: 62px;
+        left: 101px;
+        top: 2666px;
+    }
+    #loc{
+        color: #FFFFFF;
+        position: absolute;
+        width: 244px;
+        height: 82px;
+        left: 39px;
+        top: 3px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 54px;
+        text-align: center;
+    }
+    #alamat{
+        color: #FFFFFF;
+        position: absolute;
+        width: 306px;
+        height: 106px;
+        left: 7px;
+        top: 52px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 22px;
+        text-align: center;
+    }
+    #OHfoot {
+        position: absolute;
+        width: 244px;
+        height: 82px;
+        left: 39px;
+        top: 250px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 54px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      #h1 {
+        position: absolute;
+        width: 306px;
+        height: 106px;
+        left: 11px;
+        top: 296px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+}
+
+*{
+    margin: 0;
+}
+
